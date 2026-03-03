@@ -41,11 +41,11 @@ document.addEventListener('DOMContentLoaded', () => {
     video1.pause();
   }
    
-   // add the second video plane to an anchor
+  // add the second video plane to an anchor
   const anchor2 = mindarThree.addAnchor(1);
   anchor2.group.add(plane2);
 
-  anchor2.onTargetFound = () => {anchor2.onTargetFound = () => {
+  anchor2.onTargetFound = () => {
     //console.log('Video 2 started');
     video2.play();
   }
