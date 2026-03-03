@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //scene.add(light);
 
      // load and create the first video plane
-  const video1 = await loadVideo("./assets/videos/Video1.mp4");
+  const video1 = await loadVideo("./assets/videos/Video Senha.webm");
   const texture1 = new THREE.VideoTexture(video1);
   const geometry1 = new THREE.PlaneGeometry(1, 240/428);
   const material1 = new THREE.MeshBasicMaterial({map: texture1});
